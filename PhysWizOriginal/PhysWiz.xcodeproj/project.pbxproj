@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3A1AF71CD31FA1002CE53D /* SavingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A1AF61CD31FA1002CE53D /* SavingViewController.swift */; };
+		1A3A1AF91CD3243D002CE53D /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A1AF81CD3243D002CE53D /* LoadingViewController.swift */; };
+		1A938E7C1CBC9D7B00690BA3 /* PWObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A938E7B1CBC9D7B00690BA3 /* PWObject.swift */; };
+		1A99C26F1CA098950021F14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A99C26E1CA098950021F14B /* AppDelegate.swift */; };
+		1A99C2711CA098950021F14B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1A99C2701CA098950021F14B /* GameScene.sks */; };
+		1A99C2751CA098950021F14B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A99C2741CA098950021F14B /* GameViewController.swift */; };
+		1A99C27D1CA098950021F14B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A99C27B1CA098950021F14B /* LaunchScreen.storyboard */; };
+		2809DB521CD01AA400957A37 /* PWStaticObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2809DB511CD01AA400957A37 /* PWStaticObject.swift */; };
+		2809DB541CD0390F00957A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2809DB531CD0390F00957A37 /* Assets.xcassets */; };
+		286CA27D1CD718A80069C3C8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286CA27C1CD718A80069C3C8 /* GameScene.swift */; };
+		286CA27F1CD81A8A0069C3C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286CA27E1CD81A8A0069C3C8 /* Main.storyboard */; };
+		286CA2811CD833260069C3C8 /* PhysicsLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286CA2801CD833260069C3C8 /* PhysicsLogViewController.swift */; };
+		28A64D2D1CC411F300694D32 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A64D2C1CC411F300694D32 /* ContainerViewController.swift */; };
+		28BD20851CBCB6B100D54416 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BD20841CBCB6B100D54416 /* TableViewController.swift */; };
+		28EF64001CBC4D9C00AF5765 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EF63FF1CBC4D9C00AF5765 /* SWRevealViewController.m */; };
+		9F4F9ACF1CCFC1C300B011FB /* EventOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F9ACE1CCFC1C300B011FB /* EventOrganizer.swift */; };
+		9F4F9AD11CCFC2ED00B011FB /* EventOrganizerContactDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F9AD01CCFC2ED00B011FB /* EventOrganizerContactDelegate.swift */; };
+		9F4F9AD31CCFC3F100B011FB /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F9AD21CCFC3F100B011FB /* Event.swift */; };
+		9FBFD4821CBF5D5B0024505D /* Rope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBFD4811CBF5D5B0024505D /* Rope.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A3A1AF61CD31FA1002CE53D /* SavingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavingViewController.swift; path = ../SavingViewController.swift; sourceTree = "<group>"; };
+		1A3A1AF81CD3243D002CE53D /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		1A938E7B1CBC9D7B00690BA3 /* PWObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWObject.swift; sourceTree = "<group>"; };
+		1A99C26B1CA098950021F14B /* PhysWiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysWiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A99C26E1CA098950021F14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A99C2701CA098950021F14B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1A99C2741CA098950021F14B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1A99C27C1CA098950021F14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A99C27E1CA098950021F14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2809DB511CD01AA400957A37 /* PWStaticObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWStaticObject.swift; sourceTree = "<group>"; };
+		2809DB531CD0390F00957A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		286CA27C1CD718A80069C3C8 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		286CA27E1CD81A8A0069C3C8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		286CA2801CD833260069C3C8 /* PhysicsLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsLogViewController.swift; sourceTree = "<group>"; };
+		28A64D2C1CC411F300694D32 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		28BD20841CBCB6B100D54416 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		28EF63FD1CBC4D8E00AF5765 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		28EF63FE1CBC4D9B00AF5765 /* PhysWiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhysWiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		28EF63FF1CBC4D9C00AF5765 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		9F4F9ACE1CCFC1C300B011FB /* EventOrganizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventOrganizer.swift; sourceTree = "<group>"; };
+		9F4F9AD01CCFC2ED00B011FB /* EventOrganizerContactDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventOrganizerContactDelegate.swift; sourceTree = "<group>"; };
+		9F4F9AD21CCFC3F100B011FB /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9FBFD4811CBF5D5B0024505D /* Rope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rope.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A99C2681CA098950021F14B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A99C2621CA098950021F14B = {
+			isa = PBXGroup;
+			children = (
+				1A99C26D1CA098950021F14B /* PhysWiz */,
+				1A99C26C1CA098950021F14B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A99C26C1CA098950021F14B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A99C26B1CA098950021F14B /* PhysWiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A99C26D1CA098950021F14B /* PhysWiz */ = {
+			isa = PBXGroup;
+			children = (
+				9FBFD4811CBF5D5B0024505D /* Rope.swift */,
+				1A99C26E1CA098950021F14B /* AppDelegate.swift */,
+				1A99C2701CA098950021F14B /* GameScene.sks */,
+				286CA27C1CD718A80069C3C8 /* GameScene.swift */,
+				1A938E7B1CBC9D7B00690BA3 /* PWObject.swift */,
+				2809DB511CD01AA400957A37 /* PWStaticObject.swift */,
+				286CA2801CD833260069C3C8 /* PhysicsLogViewController.swift */,
+				1A99C2741CA098950021F14B /* GameViewController.swift */,
+				28BD20841CBCB6B100D54416 /* TableViewController.swift */,
+				28A64D2C1CC411F300694D32 /* ContainerViewController.swift */,
+				1A3A1AF61CD31FA1002CE53D /* SavingViewController.swift */,
+				1A3A1AF81CD3243D002CE53D /* LoadingViewController.swift */,
+				286CA27E1CD81A8A0069C3C8 /* Main.storyboard */,
+				1A99C27B1CA098950021F14B /* LaunchScreen.storyboard */,
+				1A99C27E1CA098950021F14B /* Info.plist */,
+				9F4F9ACE1CCFC1C300B011FB /* EventOrganizer.swift */,
+				9F4F9AD21CCFC3F100B011FB /* Event.swift */,
+				9F4F9AD01CCFC2ED00B011FB /* EventOrganizerContactDelegate.swift */,
+				2809DB531CD0390F00957A37 /* Assets.xcassets */,
+				28EF64011CBC4DA700AF5765 /* SWRevealViewController */,
+			);
+			path = PhysWiz;
+			sourceTree = "<group>";
+		};
+		28EF64011CBC4DA700AF5765 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28EF63FD1CBC4D8E00AF5765 /* SWRevealViewController.h */,
+				28EF63FF1CBC4D9C00AF5765 /* SWRevealViewController.m */,
+				28EF63FE1CBC4D9B00AF5765 /* PhysWiz-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A99C26A1CA098950021F14B /* PhysWiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A99C2811CA098950021F14B /* Build configuration list for PBXNativeTarget "PhysWiz" */;
+			buildPhases = (
+				1A99C2671CA098950021F14B /* Sources */,
+				1A99C2681CA098950021F14B /* Frameworks */,
+				1A99C2691CA098950021F14B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysWiz;
+			productName = PhysWiz;
+			productReference = 1A99C26B1CA098950021F14B /* PhysWiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A99C2631CA098950021F14B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Intuition;
+				TargetAttributes = {
+					1A99C26A1CA098950021F14B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7UQ755CLHU;
+					};
+				};
+			};
+			buildConfigurationList = 1A99C2661CA098950021F14B /* Build configuration list for PBXProject "PhysWiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A99C2621CA098950021F14B;
+			productRefGroup = 1A99C26C1CA098950021F14B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A99C26A1CA098950021F14B /* PhysWiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A99C2691CA098950021F14B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A99C2711CA098950021F14B /* GameScene.sks in Resources */,
+				286CA27F1CD81A8A0069C3C8 /* Main.storyboard in Resources */,
+				1A99C27D1CA098950021F14B /* LaunchScreen.storyboard in Resources */,
+				2809DB541CD0390F00957A37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A99C2671CA098950021F14B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286CA27D1CD718A80069C3C8 /* GameScene.swift in Sources */,
+				9F4F9ACF1CCFC1C300B011FB /* EventOrganizer.swift in Sources */,
+				9F4F9AD11CCFC2ED00B011FB /* EventOrganizerContactDelegate.swift in Sources */,
+				2809DB521CD01AA400957A37 /* PWStaticObject.swift in Sources */,
+				1A99C2751CA098950021F14B /* GameViewController.swift in Sources */,
+				9F4F9AD31CCFC3F100B011FB /* Event.swift in Sources */,
+				1A99C26F1CA098950021F14B /* AppDelegate.swift in Sources */,
+				1A3A1AF71CD31FA1002CE53D /* SavingViewController.swift in Sources */,
+				1A3A1AF91CD3243D002CE53D /* LoadingViewController.swift in Sources */,
+				1A938E7C1CBC9D7B00690BA3 /* PWObject.swift in Sources */,
+				9FBFD4821CBF5D5B0024505D /* Rope.swift in Sources */,
+				28BD20851CBCB6B100D54416 /* TableViewController.swift in Sources */,
+				286CA2811CD833260069C3C8 /* PhysicsLogViewController.swift in Sources */,
+				28A64D2D1CC411F300694D32 /* ContainerViewController.swift in Sources */,
+				28EF64001CBC4D9C00AF5765 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A99C27B1CA098950021F14B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A99C27C1CA098950021F14B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A99C27F1CA098950021F14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A99C2801CA098950021F14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A99C2821CA098950021F14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PhysWiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Intuition.PhysWiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhysWiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1A99C2831CA098950021F14B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PhysWiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Intuition.PhysWiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhysWiz-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A99C2661CA098950021F14B /* Build configuration list for PBXProject "PhysWiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A99C27F1CA098950021F14B /* Debug */,
+				1A99C2801CA098950021F14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A99C2811CA098950021F14B /* Build configuration list for PBXNativeTarget "PhysWiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A99C2821CA098950021F14B /* Debug */,
+				1A99C2831CA098950021F14B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A99C2631CA098950021F14B /* Project object */;
+}
